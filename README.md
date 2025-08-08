@@ -45,9 +45,13 @@ cd Social-Media-Dashboard-using-Django-main
 python -m venv venv
 
 # Windows
+
+- Copy code
 venv\Scripts\activate
 
 # Mac/Linux
+
+- Copy code
 source venv/bin/activate
 
 
@@ -55,7 +59,7 @@ source venv/bin/activate
 
 - If the project has a requirements.txt:
 
-Copy code
+- Copy code
 pip install -r requirements.txt
 
 # 4. Run database migrations
@@ -75,6 +79,8 @@ python manage.py runserver
 
 http://127.0.0.1:8000/
 
-# Note: 1.  Installed SQLite.
+# Note :  
+  
+#        1.  Installed SQLite.
 #        2.   If python manage.py gives an error like "No such file or directory", it means you’re not inside the folder that contains manage.py.
 #             We’ll need to cd into the right subfolder first.
