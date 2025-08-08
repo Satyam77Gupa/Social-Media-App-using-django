@@ -1,0 +1,6 @@
+Django~=4.0
+django-crispy-forms~=1.14
+django-allauth~=0.51
+tweepy~=4.12
+facebook-sdk~=3.1 # Or another Facebook library
+python-decouple # For environment variables
