@@ -34,25 +34,27 @@ Set By step process to run the programming.
 
 # 1. Unzip the project
 
-- Copy code
+- Copy code : 
 
 unzip Social-Media-Dashboard-using-Django-main.zip
 cd Social-Media-Dashboard-using-Django-main
 
 # 2. Create and activate a virtual environment (recommended)
 
-- Copy code
+- Copy code : 
 python -m venv venv
 
 # Windows
 
-- Copy code
+- Copy code :
+
 venv\Scripts\activate
 
 # Mac/Linux
 
-- Copy code
-source venv/bin/activate
+- Copy code : 
+  
+venv/bin/activate
 
 
 # 3.Install dependencies
@@ -60,17 +62,20 @@ source venv/bin/activate
 - If the project has a requirements.txt:
 
 - Copy code
+  
 pip install -r requirements.txt
 
 # 4. Run database migrations
 
-- Copy code
+- Copy code :
+  
 python manage.py migrate
 
 
 # 5. Start the development server
 
-- Copy code
+- Copy code :
+  
 python manage.py runserver
 
 # 6. View in browser
